@@ -1,4 +1,3 @@
-import { Schema } from "zod";
 
 export const validateSchema = (schema) => (req, res, next) => {
   try {
